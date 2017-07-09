@@ -1,0 +1,30 @@
+{
+    "skeletonApp": {
+        "parameter" : {
+            "home": {
+                "title": "Parameters",
+                "createLabel": "Creeare o nouă entitate Parameter",
+                "createOrEditLabel": "Creeare sau editare Parameter",
+                "search": "Căutare după Parameter"
+            },
+            "created": "A fost creată o nouă entitate Parameter cu identificatorul {{ param }}",
+            "updated": "Parameter cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Parameter cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Parameter {{ id }}?"
+            },
+            "detail": {
+                "title": "Parameter"
+            },
+            "domain": "Domain",
+            "parameter": "Parameter",
+            "name": "Name",
+            "description": "Description",
+            "value": "Value",
+            "creationUser": "Creation User",
+            "creationDateTime": "Creation Date Time",
+            "lastModifiedUser": "Last Modified User",
+            "lastModifiedDateTime": "Last Modified Date Time"
+        }
+    }
+}

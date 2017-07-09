@@ -1,0 +1,30 @@
+{
+    "skeletonApp": {
+        "parameter" : {
+            "home": {
+                "title": "Parameters",
+                "createLabel": "Egy új Parameter létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Parametert",
+                "search": "Parameter keresése"
+            },
+            "created": "Egy új Parameter lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Parameter módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Parameter törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Parametert {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Parameter"
+            },
+            "domain": "Domain",
+            "parameter": "Parameter",
+            "name": "Name",
+            "description": "Description",
+            "value": "Value",
+            "creationUser": "Creation User",
+            "creationDateTime": "Creation Date Time",
+            "lastModifiedUser": "Last Modified User",
+            "lastModifiedDateTime": "Last Modified Date Time"
+        }
+    }
+}

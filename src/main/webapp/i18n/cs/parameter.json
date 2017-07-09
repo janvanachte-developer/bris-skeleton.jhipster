@@ -1,0 +1,30 @@
+{
+    "skeletonApp": {
+        "parameter" : {
+            "home": {
+                "title": "Parameters",
+                "createLabel": "Vytvořit Parameter",
+                "createOrEditLabel": "Vytvořit nebo upravit Parameter",
+                "search": "Vyhledat Parameter"
+            },
+            "created": "Byl vytvořen potomek entity Parameter s identifikátorem {{ param }}",
+            "updated": "Potomek entity Parameter s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Parameter s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Parameter {{ id }}?"
+            },
+            "detail": {
+                "title": "Parameter"
+            },
+            "domain": "Domain",
+            "parameter": "Parameter",
+            "name": "Name",
+            "description": "Description",
+            "value": "Value",
+            "creationUser": "Creation User",
+            "creationDateTime": "Creation Date Time",
+            "lastModifiedUser": "Last Modified User",
+            "lastModifiedDateTime": "Last Modified Date Time"
+        }
+    }
+}

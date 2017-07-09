@@ -1,0 +1,84 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "eu.europa.ec.digit.bris.common",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.6.0",
+    "baseName": "skeleton",
+    "packageName": "eu.europa.ec.digit.bris.common",
+    "packageFolder": "eu/europa/ec/digit/bris/common",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "ab9f7608c8c77e8ad786159a6980c93926fef27a",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.2.0"
+      },
+      {
+        "name": "generator-jhipster-ci",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-bootstrap-material-design",
+        "version": "3.5.1"
+      },
+      {
+        "name": "generator-jhipster-swagger2markup",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "2.0.5"
+      },
+      {
+        "name": "generator-jhipster-banner",
+        "version": "0.0.2"
+      },
+      {
+        "name": "generator-jhipster-webservice",
+        "version": "0.1.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "ca",
+      "cs",
+      "da",
+      "nl",
+      "et",
+      "fr",
+      "de",
+      "hu",
+      "it",
+      "pl",
+      "pt-pt",
+      "ro",
+      "sk",
+      "es",
+      "sv"
+    ]
+  }
+}

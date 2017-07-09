@@ -1,0 +1,30 @@
+{
+    "skeletonApp": {
+        "parameter" : {
+            "home": {
+                "title": "Parameters",
+                "createLabel": "Dodaj Parameter",
+                "createOrEditLabel": "Dodaj lub edytuj: Parameter",
+                "search": "Szukaj Parameter"
+            },
+            "created": "Utworzono nowy Parameter z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono Parameter z identyfikatorem {{ param }}",
+            "deleted": "Usunięto Parameter z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Parameter {{ id }}?"
+            },
+            "detail": {
+                "title": "Parameter"
+            },
+            "domain": "Domain",
+            "parameter": "Parameter",
+            "name": "Name",
+            "description": "Description",
+            "value": "Value",
+            "creationUser": "Creation User",
+            "creationDateTime": "Creation Date Time",
+            "lastModifiedUser": "Last Modified User",
+            "lastModifiedDateTime": "Last Modified Date Time"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "skeletonApp": {
+        "parameter" : {
+            "home": {
+                "title": "Parameters",
+                "createLabel": "Skapa en ny Parameter",
+                "createOrEditLabel": "Skapa eller ändra en Parameter",
+                "search": "Sök efter Parameter"
+            },
+            "created": "En ny Parameter är skapad med id {{ param }}",
+            "updated": "En Parameter är uppdaterad med id  {{ param }}",
+            "deleted": "En Parameter är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Parameter {{ id }}?"
+            },
+            "detail": {
+                "title": "Parameter"
+            },
+            "domain": "Domain",
+            "parameter": "Parameter",
+            "name": "Name",
+            "description": "Description",
+            "value": "Value",
+            "creationUser": "Creation User",
+            "creationDateTime": "Creation Date Time",
+            "lastModifiedUser": "Last Modified User",
+            "lastModifiedDateTime": "Last Modified Date Time"
+        }
+    }
+}

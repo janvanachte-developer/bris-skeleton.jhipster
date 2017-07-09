@@ -1,0 +1,19 @@
+version: '2'
+services:
+    skeleton-app:
+        image: skeleton
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://skeleton-mysql:3306/skeleton?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=skeleton-elasticsearch:9300
+        ports:
+            - 8080:8080
+    skeleton-mysql:
+        extends:
+            file: mysql.yml
+            service: skeleton-mysql
+    skeleton-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: skeleton-elasticsearch

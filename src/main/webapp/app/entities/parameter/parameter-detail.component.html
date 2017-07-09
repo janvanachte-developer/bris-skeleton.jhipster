@@ -1,0 +1,57 @@
+
+<div *ngIf="parameter">
+    <h2><span jhiTranslate="skeletonApp.parameter.detail.title">Parameter</span> {{parameter.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="skeletonApp.parameter.domain">Domain</span></dt>
+        <dd>
+            <span>{{parameter.domain}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.parameter">Parameter</span></dt>
+        <dd>
+            <span>{{parameter.parameter}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.name">Name</span></dt>
+        <dd>
+            <span>{{parameter.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.description">Description</span></dt>
+        <dd>
+            <span>{{parameter.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.value">Value</span></dt>
+        <dd>
+            <span>{{parameter.value}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.creationUser">Creation User</span></dt>
+        <dd>
+            <span>{{parameter.creationUser}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.creationDateTime">Creation Date Time</span></dt>
+        <dd>
+            <span>{{parameter.creationDateTime | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.lastModifiedUser">Last Modified User</span></dt>
+        <dd>
+            <span>{{parameter.lastModifiedUser}}</span>
+        </dd>
+        <dt><span jhiTranslate="skeletonApp.parameter.lastModifiedDateTime">Last Modified Date Time</span></dt>
+        <dd>
+            <span>{{parameter.lastModifiedDateTime | date:'medium'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'parameter/'+ parameter.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

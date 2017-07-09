@@ -1,0 +1,47 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "domain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parameter",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationUser",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDateTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "lastModifiedUser",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastModifiedDateTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20170709192024",
+    "entityTableName": "parameter",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}
